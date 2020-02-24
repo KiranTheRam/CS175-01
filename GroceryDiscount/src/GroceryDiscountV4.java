@@ -4,27 +4,34 @@ public class GroceryDiscountV4 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        boolean keep = true;
-
+        double amountOff = 0;
             System.out.println("Please enter the cost of your groceries. To end enter 0 or a non-number: ");
 
             while (scan.hasNextDouble()) {
                 double grocCost = scan.nextDouble();
                 if (grocCost >= 10 && grocCost <= 1000) {
                     if (grocCost >= 10 && grocCost <= 60) {
-                        System.out.println("You win a discount coupon of $" + 0.08 * grocCost + (" (8% of your purchase)"));
+                        amountOff = 0.08 * grocCost;
+                        System.out.printf("You win a discount coupon of $%.2f (8 percent of your purchase)" , amountOff);
+                        System.out.println();
                         System.out.println("-------------------------------------------");
                         System.out.println("Enter another amount to see discount or 0 to end");
                     } else if (grocCost > 60 && grocCost <= 150) {
-                        System.out.println("You win a discount coupon of $" + 0.1 * grocCost + (" (10% of your purchase)"));
+                        amountOff = 0.1 * grocCost;
+                        System.out.printf("You win a discount coupon of $%.2f (10 percent of your purchase)" , amountOff);
+                        System.out.println();
                         System.out.println("-------------------------------------------");
                         System.out.println("Enter another amount to see discount or 0 to end");
                     } else if (grocCost > 150 && grocCost <= 210) {
-                        System.out.println("You win a discount coupon of $" + 0.12 * grocCost + (" (12% of your purchase)"));
+                        amountOff = 0.12 * grocCost;
+                        System.out.printf("You win a discount coupon of $%.2f (12 percent of your purchase)" , amountOff);
+                        System.out.println();
                         System.out.println("-------------------------------------------");
                         System.out.println("Enter another amount to see discount or 0 to end");
                     } else if (grocCost > 210) {
-                        System.out.println("You win a discount coupon of $" + 0.14 * grocCost + (" (14% of your purchase)"));
+                        amountOff = 0.14 * grocCost;
+                        System.out.printf("You win a discount coupon of $%.2f (14 percent of your purchase)" , amountOff);
+                        System.out.println();
                         System.out.println("-------------------------------------------");
                         System.out.println("Enter another amount to see discount or 0 to end");
                     }
