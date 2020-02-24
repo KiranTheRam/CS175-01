@@ -20,7 +20,7 @@
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Application.GroceryDiscountV3">
+  <component name="RunManager" selected="Application.GroceryDiscountV4">
     <configuration name="GroceryDiscountV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GroceryDiscountV2" />
       <module name="GroceryDiscount" />
@@ -30,6 +30,13 @@
     </configuration>
     <configuration name="GroceryDiscountV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GroceryDiscountV3" />
+      <module name="GroceryDiscount" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroceryDiscountV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GroceryDiscountV4" />
       <module name="GroceryDiscount" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -47,6 +54,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GroceryDiscountV4" />
         <item itemvalue="Application.GroceryDiscountV3" />
         <item itemvalue="Application.GroceryDiscountV2" />
         <item itemvalue="Application.Main" />
@@ -67,22 +75,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="165" key="GridCell.Tab.0.bottom" timestamp="1582221156514">
+    <state width="1877" height="165" key="GridCell.Tab.0.bottom" timestamp="1582564426127">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="165" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582221156514" />
-    <state width="1877" height="165" key="GridCell.Tab.0.center" timestamp="1582221156514">
+    <state width="1877" height="165" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1582564426127" />
+    <state width="1877" height="165" key="GridCell.Tab.0.center" timestamp="1582564426127">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="165" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582221156514" />
-    <state width="1877" height="165" key="GridCell.Tab.0.left" timestamp="1582221156514">
+    <state width="1877" height="165" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1582564426127" />
+    <state width="1877" height="165" key="GridCell.Tab.0.left" timestamp="1582564426126">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="165" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582221156514" />
-    <state width="1877" height="165" key="GridCell.Tab.0.right" timestamp="1582221156514">
+    <state width="1877" height="165" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1582564426126" />
+    <state width="1877" height="165" key="GridCell.Tab.0.right" timestamp="1582564426127">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="165" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582221156514" />
+    <state width="1877" height="165" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1582564426127" />
     <state x="623" y="235" key="search.everywhere.popup" timestamp="1581961938791">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
