@@ -26,9 +26,9 @@ public class Main {
             }
             else {
                     String[] CourseInfoArr = CourseInfo.split(",", 3);
-                    String CourseTitle = CourseInfoArr[0];
-                    String CreditHoursString = CourseInfoArr[1];
-                    String LetterGrade = CourseInfoArr[2];
+                    String CourseTitle = CourseInfoArr[0].trim();
+                    String CreditHoursString = CourseInfoArr[1].trim();
+                    String LetterGrade = CourseInfoArr[2].trim();
                     int CreditHours = Integer.parseInt(CreditHoursString);
 
     //                    Assigning the values of letter grades
