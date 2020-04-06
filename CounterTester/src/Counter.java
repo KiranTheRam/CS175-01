@@ -33,4 +33,13 @@ public class Counter
     {
         value = 0;
     }
+
+//    Part 2 methods
+    public void clickMany(int clicks) {
+        value = value + clicks;
+    }
+
+    public void unclickMany(int unclicks) {
+        value = value -unclicks;
+    }
 }
